@@ -9,7 +9,7 @@ h1 {
   padding: 2% 0;
 }
 
-h2 {
+.h2center{
   text-align: center;
 }
 
@@ -20,16 +20,28 @@ h2 {
   border-radius: 10%;
 }
 
+.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .essay{
   line-height: 1.5;
 }
 
-#blurb {
+.bio {
   padding: 2% 0 3%;
   line-height: 1.5;
 }
 
+.byline {
+  text-align: center;
+  padding: 2% 0 3%;
+}
+
 footer {
+  font-size: small;
   padding: 2% 0;
 }
 
@@ -40,6 +52,9 @@ footer {
   .headshot{
     max-width: 50vw;
   }
+  .figure{
+    max-width: 90vw;
+  }
 }
 
 @media screen and (min-width: 630px) {
@@ -48,5 +63,8 @@ footer {
   }
   .headshot{
     max-width: 6.5cm;
+  }
+  .figure{
+    max-width: 50vw;
   }
 }
